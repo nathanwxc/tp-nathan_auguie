@@ -28,7 +28,7 @@ public class Weapon {
 
     // Exemple d'utilisation
     public static void main(String[] args) {
-        Weapon sword = new Weapon(10, 20);
-        System.out.println("Dégâts infligés : " + sword.rollDamage());
+        Weapon bow = new Weapon(10, 20);
+        System.out.println("Dégâts infligés : " + bow.rollDamage());
     }
 }

@@ -6,6 +6,9 @@
         this.name = name;
         this.hp = 100;
     }
+    public int getHp() {
+        return hp;
+    }
     public void greet() {
         System.out.println("Bonjour, je suis " 
 + name + " !");
@@ -26,7 +29,7 @@
         p.takeDamage(15);
         Player bob = new Player("Bob");
         bob.takeDamage(85);
-        assert !bob.isAlive();
+        assert bob.isAlive();
         bob.takeDamage(15);
         assert !bob.isAlive() : "Bob aurait dû être KO"; 
     }
