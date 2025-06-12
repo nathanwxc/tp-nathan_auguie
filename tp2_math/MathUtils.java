@@ -1,16 +1,9 @@
-
+package Tp2_math;
 
 public class MathUtils {
-    private final int x;
-    private final int y;
-    public MathUtils(int x,int y){
-        this.x = x;
-        this.y = y;
-    }
+   
      
-    public int calculerPGCD() {   
-        int a = x;
-        int b = y;
+    public static int calculerPGCD(int a, int b) {   
 
         while (b != 0) { 
             int reste = a % b;
@@ -20,8 +13,5 @@ public class MathUtils {
         return a;
     }
 
-    public static void main(String[] args){
-        MathUtils pgcd = new MathUtils(42,30);
-        System.out.println("pgcd : " + pgcd.calculerPGCD());
-    }
+    
 }
