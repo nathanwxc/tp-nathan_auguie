@@ -35,6 +35,20 @@ public class Fraction {
     public double toDouble(){
         return this.num / this.den;
     }
+
+    public String compare(Fraction f){
+        Fraction g = new Fraction(this.num, this.den);
+        if (g.toDouble() > f.toDouble()){
+            return "the fraction " + g.toString() + " is superior to " + f.toString();
+        }
+        if (g.toDouble() < f.toDouble()){
+            return "the fraction " + g.toString() + " is inferior to " + f.toString();
+        }
+        else{
+            return "the fraction " + g.toString() + " is equal to " + f.toString();
+        }
+    }
+    
     @Override
     public String toString() {
         return  this.num + "/" + this.den ;
