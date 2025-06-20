@@ -1,9 +1,9 @@
-package Tp4_systeme_de_paiement;
+package tp4_systeme_de_paiement;
 
- public class PaiementPayPal implements Paiement {
+ public class PaiementPaypal implements Paiement {
     private String email;
     private double solde;
-    public PaiementPayPal(String email, double solde) {
+    public PaiementPaypal(String email, double solde) {
         this.email = email;
         this.solde = solde;
     }

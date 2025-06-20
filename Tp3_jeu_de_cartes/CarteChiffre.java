@@ -1,4 +1,4 @@
-package Tp3_jeu_de_cartes;
+package tp3_jeu_de_cartes;
 
  public class CarteChiffre extends Carte {
     private final String couleur;

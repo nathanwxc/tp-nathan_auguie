@@ -1,4 +1,4 @@
-package Tp2_math;
+package tp2_math;
 
 public class MathUtils {
    

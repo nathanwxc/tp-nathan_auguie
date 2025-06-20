@@ -1,4 +1,4 @@
-package Tp3_jeu_de_cartes;
+package tp3_jeu_de_cartes;
 
 public abstract class Carte {
     protected final String nom;

@@ -1,4 +1,4 @@
-package Tp4_systeme_de_paiement;
+package tp4_systeme_de_paiement;
 
 public class PaiementCarte implements Paiement {
     private String numero;
