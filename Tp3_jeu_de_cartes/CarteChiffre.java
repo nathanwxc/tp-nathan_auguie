@@ -10,4 +10,15 @@ package Tp3_jeu_de_cartes;
     public void jouer() {
         System.out.println("Je joue le " + nom);
     }
+    @Override
+    public String toString(){
+        return "cette carte est un " + nom;
+    }
+    public boolean isEqualValue(CarteChiffre c){
+        return valeur == c.valeur;
+    }
+    public boolean isTotallyEquals(CarteChiffre c){
+        return this.isEqualValue(c) && this.couleur.equals(c.couleur);
+    }
+
  }

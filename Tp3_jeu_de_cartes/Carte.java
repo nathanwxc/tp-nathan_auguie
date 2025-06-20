@@ -8,4 +8,13 @@ public abstract class Carte {
         this.valeur = valeur;
     }
     public abstract void jouer();
+
+    @Override
+    public abstract String toString();
+
+    public boolean isEquals(Carte c){
+        return this.nom.equals(c.nom);
+    }
+
+    
  }
